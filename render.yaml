@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: m3u8-to-rtmp
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
